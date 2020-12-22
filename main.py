@@ -24,7 +24,7 @@ elem = driver.find_element_by_id("email")
 secret=input("username:")
 elem.send_keys(secret)
 elem = driver.find_element_by_id("password")
-secret=input("password")
+secret=input("password:")
 elem.send_keys(secret)
 
 input("手动登录完成后按回车继续")

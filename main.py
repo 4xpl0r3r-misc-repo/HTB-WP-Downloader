@@ -65,3 +65,5 @@ with open("list.txt", "r") as listFile:
             if('writeup' in driver.find_elements_by_tag_name('a')[i].get_attribute('href')):
                 driver.find_elements_by_tag_name('a')[i].click()
                 break
+
+input("press enter to finish")
